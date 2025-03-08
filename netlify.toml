@@ -9,3 +9,7 @@
         yarn run build
     """
     publish = "build"
+
+[build.environment]
+    PYTHON_VERSION = "3.9"
+    RUBY_VERSION = "3.1"
